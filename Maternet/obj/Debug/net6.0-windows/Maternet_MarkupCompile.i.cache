@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Abdellatif\Desktop\WPF\Maternet\Maternet\App.xaml
-11407045341
+21409376677
 
-51850026294
+81163137914
 194183970531
-MainWindow.xaml;
+View\Home_page.xaml;View\Root.xaml;
 
-False
+True
 

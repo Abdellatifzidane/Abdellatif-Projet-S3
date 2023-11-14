@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maternet", "Maternet\Maternet.csproj", "{513148BD-D842-43EA-A222-181BE57B6A9A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maternet", "Maternet\Maternet.csproj", "{95EA7FC1-85D2-44DE-B490-1EE649A6D45B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{513148BD-D842-43EA-A222-181BE57B6A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{513148BD-D842-43EA-A222-181BE57B6A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{513148BD-D842-43EA-A222-181BE57B6A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{513148BD-D842-43EA-A222-181BE57B6A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95EA7FC1-85D2-44DE-B490-1EE649A6D45B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95EA7FC1-85D2-44DE-B490-1EE649A6D45B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95EA7FC1-85D2-44DE-B490-1EE649A6D45B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95EA7FC1-85D2-44DE-B490-1EE649A6D45B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F6662649-CA52-4DB8-A662-0499BED76CD3}
+		SolutionGuid = {C4502877-7B55-48AB-BDB1-3CF83FCF1C30}
 	EndGlobalSection
 EndGlobal
