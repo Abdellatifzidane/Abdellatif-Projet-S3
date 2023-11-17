@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Maternet.Modele;
 
 namespace Maternet.View
 {
@@ -22,6 +23,16 @@ namespace Maternet.View
         public Home_page()
         {
             InitializeComponent();
+            userId.Content = Session.CurrentUserId;
+
+        }
+
+        private void Logout_Click(object sender, RoutedEventArgs e)
+        {
+            Session.Logout();
+            Close();
+            Root root = new Root();
+            root.ShowDialog();  
         }
     }
 }

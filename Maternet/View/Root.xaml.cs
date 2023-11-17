@@ -25,10 +25,10 @@ namespace Maternet.View
 
         public Root()
         {
-            InitializeComponent();
-
-           // CheckSession();
+            CheckSession();
         }
+
+
 
         private void Admin_Click(object sender, RoutedEventArgs e)
         {
@@ -63,7 +63,10 @@ namespace Maternet.View
             {
                 errorMessage += "l'email est obligatoire " + Environment.NewLine;
             }
-
+            if (Session.CurrentUserType == UserTypes.NULL)
+            {
+                errorMessage += " le choix de type d'utilisateur est obligatoire" + Environment.NewLine;
+            }
             if (errorMessage != "")
             {
                 MessageBox.Show(errorMessage,"Error",MessageBoxButton.OK, MessageBoxImage.Error);
@@ -72,24 +75,30 @@ namespace Maternet.View
             // TODO 
             // validation des entrés de l'utilisateur coté base de données 
 
-            // ici j'ai juste donner un example de id = 1 ... 
+            // ici j'ai juste donner un example de id = 99
+            //... 
+
             // si tout est validé : 
-            Session.Login("1",Session.CurrentUserType);
-
-        }
-
-
-
-
-
-        //cette fonction ne fonctionne pas pour le moment  mdr 
-        private void CheckSession()
-        {
-            if(Session.CurrentUserType != UserTypes.NULL)
+            if(errorMessage == "")
             {
-                Session.Login();
+                Session.Login("9455", Session.CurrentUserType);
+                // Close the login window
+                this.Close();
             }
         }
 
+
+        private void CheckSession()
+        {
+            if(Session.IsLoggedIn == true)
+            {
+                Session.Login();
+                Close();    
+            }
+            else
+            {
+                InitializeComponent();
+            }
+        }
     }
 }

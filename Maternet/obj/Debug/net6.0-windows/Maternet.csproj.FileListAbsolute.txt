@@ -20,3 +20,4 @@ C:\Users\Abdellatif\Desktop\WPF\Maternet\Maternet\obj\Debug\net6.0-windows\View\
 C:\Users\Abdellatif\Desktop\WPF\Maternet\Maternet\obj\Debug\net6.0-windows\View\root.baml
 C:\Users\Abdellatif\Desktop\WPF\Maternet\Maternet\obj\Debug\net6.0-windows\View\Home_page.g.cs
 C:\Users\Abdellatif\Desktop\WPF\Maternet\Maternet\obj\Debug\net6.0-windows\View\Home_page.baml
+C:\Users\Abdellatif\Desktop\WPF\Maternet\Maternet\bin\Debug\net6.0-windows\Maternet.dll.config

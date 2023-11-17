@@ -7,7 +7,10 @@
         mc:Ignorable="d"
         Title="Home_page" Height="450" Width="800">
     <Grid>
-        <Label FontSize="40" Content="Home Pag" HorizontalAlignment="Left" Margin="277,141,0,0" VerticalAlignment="Top" Height="76" Width="207"/>
+        <Label FontSize="40" Content="Home Page" HorizontalAlignment="Left" Margin="277,141,0,0" VerticalAlignment="Top" Height="76" Width="207"/>
+        <Button Content="Déconnecter" HorizontalAlignment="Left" Margin="641,23,0,0" VerticalAlignment="Top" Width="119" Height="39" Click="Logout_Click"/>
+        <Label Content="User id : " HorizontalAlignment="Left" Margin="270,74,0,0" VerticalAlignment="Top" Width="57"/>
+        <Label Name="userId"  Content="" HorizontalAlignment="Left" Margin="347,76,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.745,0.144" Width="56"/>
 
     </Grid>
 </Window>
